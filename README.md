@@ -1,3 +1,5 @@
+### A COMPUTATIONAL APPROACH INTEGRATING MATHEMATICAL MODELING AND MACHINE LEARNING FOR MUSCLE FATIGUE ANALYSIS AND EXERCISE OPTIMIZATION
+
 ## Problem Statement
 
 In current physiotherapy practice, exercise plans are mainly given based on the therapist’s experience, observation, and patient feedback. There is no proper quantitative or computational model to measure muscle fatigue accurately.
@@ -46,7 +48,7 @@ Represents the smoking exposure of the individual over time.
 
 These parameters significantly influence muscle strength, endurance, and fatigue characteristics
 
----
+
 
 ### 3. Data Cleaning & Preprocessing
 
@@ -55,7 +57,7 @@ These parameters significantly influence muscle strength, endurance, and fatigue
 * Handling missing values in activity level and smoking data
 * Creation of new labels (e.g., Male/Female)
 
----
+
 
 ### 4. MVC Computation
 
@@ -64,14 +66,14 @@ These parameters significantly influence muscle strength, endurance, and fatigue
   * Average of grip force values (`RFD, RFND, RHD, RHND`)
 * Represents maximum muscle strength
 
----
+
 
 ### 5. Outlier Removal
 
 * Outliers are removed using **Interquartile Range (IQR)** method
 * Improves model accuracy and reliability
 
----
+
 
 ### 6. Feature Engineering
 
@@ -82,7 +84,7 @@ These parameters significantly influence muscle strength, endurance, and fatigue
   * Older
 * Helps in statistical comparison and visualization
 
----
+
 
 ### 7. Statistical Analysis
 
@@ -90,7 +92,7 @@ These parameters significantly influence muscle strength, endurance, and fatigue
 * **T-test** → compares muscle strength between groups
 * Helps identify significant influencing factors
 
----
+
 
 ### 8. Data Visualization
 
@@ -103,7 +105,6 @@ The system generates:
 
 These help in understanding relationships between variables.
 
----
 
 ### 9. Machine Learning Model
 
@@ -117,7 +118,7 @@ These help in understanding relationships between variables.
 
 * Output: Predicted MVC
 
----
+
 
 ### 10. Fatigue Modeling
 
@@ -128,14 +129,14 @@ These help in understanding relationships between variables.
   * Activity level
   * Smoking history
 
----
+
 
 ### 11. Safe Exercise Time Estimation
 
 * Safe exercise duration is calculated using fatigue model
 * Ensures muscle does not exceed fatigue threshold
 
----
+
 
 ### 12. Personalized Prediction System
 
@@ -155,7 +156,6 @@ System outputs:
 * Rest interval
 * Fatigue risk level (Low / Moderate / High)
 
----
 
 ## Key Features
 
